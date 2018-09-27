@@ -1,0 +1,14 @@
+{
+  "name": "orcwall",
+  "version": "1.0.0",
+  "description": "A Social Media For Researchers and Investigators",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PL6",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
