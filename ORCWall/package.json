@@ -9,6 +9,8 @@
   "author": "PL6",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "pug": "^2.0.3"
   }
 }
