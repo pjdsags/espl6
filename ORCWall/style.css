@@ -91,7 +91,6 @@
 
 
 
-
 /* BUTTONS - top bar*/
 
 .but_nav_wrapper{
@@ -103,12 +102,16 @@
 	align-items: center;
 }
 
-
 .nav_icon{
 	margin: 0.8em;
 	display: block;
 }
-
+.textnav{
+	font-family: 'Rubik', sans-serif;
+	margin-left: 2em;
+	color: #4F4F4F ;
+	margin-right: -0.5em;
+}
 
 .nav_icon:hover{
 		cursor: pointer;
@@ -125,6 +128,10 @@
 	fill: #009245;
 	box-shadow: 4px 2px 4px rgba(134, 134, 134, 0.25);
 }
+
+
+
+
 
 
 
