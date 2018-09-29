@@ -191,16 +191,27 @@ h1.leftbaroptionnotactive{
 	width: auto;
 }
 
-
-
-
-
-
-
-
-
 #feed{
+	margin-top: 100px;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: ltr;
+	flex-wrap: wrap;
 	height: 100%;
 	width: 100%;
-	display: flex;
+	border: 2px solid green;
+}
+
+.feedBox{
+	max-width: 50%;
+	border: 1px solid red;
+	margin-top: 20px;
+
+	width: 312px;
+	height: 217px;
+}
+
+.imageOnFeedBlock{
+	display: block;
+	max-width: 100%;
 }
