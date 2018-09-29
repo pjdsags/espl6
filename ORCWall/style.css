@@ -35,9 +35,9 @@
 
 #logonav{
 	display: block;
-
 	padding: 0px;
-
+	min-width: 11em;
+	max.width: 200px;
 	margin-left: 2em;
 }
 
