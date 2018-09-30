@@ -10,6 +10,34 @@
 </head>
 <body style="margin: 0px; padding: 0px;">
 
+	<!--------------------------->
+	<!--------------------------->
+	<!--------------------------->
+	<!-- DECLARAÇÃO DE FUNÇÕES -->
+	<!--------------------------->
+	<!--------------------------->
+	<!--------------------------->
+
+
+	<!-- INSERE BLOCOS NO FEED -->
+	<script type="text/javascript">
+		function addFeedBlock(imagepath)
+		{
+			document.write('<div class="feedBox"> <img class="imageOnFeedBlock" src="' + imagepath + '"> </div> ');
+		}
+	</script>
+
+
+
+
+	<!---------------------------->
+	<!---------------------------->
+	<!---------------------------->
+	<!--		HTML			-->
+	<!---------------------------->
+	<!---------------------------->
+	<!---------------------------->
+
 	<!-- GLOBAL CONTAINER -->
 	<div class="container">
 
@@ -110,17 +138,22 @@
 				</div>
 			</div>
 
+
+
+
 			<!-- MAIN BODY - feed -->
 
-			<div id="feed"  style="justify-content: center;" >
-				feed......<br>
-				feed......<br>
-				feed......<br>
-				feed......<br>
-				feed......<br>
-				feed......<br>
-				feed......<br>
+			<div id="feed" >
+				<script type="text/javascript">
+					for (var i = 0; i < 50; i++)
+					{
+						addFeedBlock('Temporary/feedImage.png');
+					}			
+				</script>
 			</div>
+
+
+
 
 		</div>
 
