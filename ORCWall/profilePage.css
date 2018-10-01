@@ -61,10 +61,10 @@
   width: 100%;
 }
 
-
-/*  PASSWORD  */
+#createaccountbutton{
+  width:            auto;
+}
 
 #loginbutton{
-  border:           1px solid green;
   width:            auto;
 }
