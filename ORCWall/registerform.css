@@ -24,12 +24,14 @@
 
 
 /*  EMAIL  */
-
-#emailtext{
-  border:           1px solid green;
+#emailinput{
+  margin:           0px;
+  padding:          0px;
+  height:           auto;
+  width:            100%;
 }
 
-#emailinput{
+#emailinput {
   margin:           0px;
   padding:          0px;
   height:           auto;
@@ -38,14 +40,65 @@
 
 
 /*  PASSWORD  */
-
-#passwordtext{
-  border:           1px solid green;
-}
-
 #passwordinput{
   margin:           0px;
   padding:          0px;
   height:           auto;
+  width:            90%;
+}
+
+#repeatpasswordinput{
+  margin:           0px;
+  padding:          0px;
+  height:           auto;
+  width:            90%;
+}
+
+
+/*  NAMES  */
+#firstnameinput{
+  margin:           0px;
+  padding:          0px;
+  height:           auto;
+  width:            90%;
+}
+
+#lastnameinput{
+  margin:           0px;
+  padding:          0px;
+  height:           auto;
+  width:            90%;
+}
+
+/*  BIRTHDAY */
+#birthdayinput{
+  margin:           0px;
+  padding:          0px;
+  height:           auto;
+  width:            90%;
+}
+
+
+/*  BUTTONS  */
+
+#buttonsdiv{
+  display:          flex;
+  flex-direction:   ltr;
+  justify-content:  space-between;
   width:            100%;
+}
+
+#createaccountbutton{
+  width:            auto;
+}
+
+#loginbutton{
+  width:            auto;
+}
+
+
+
+/*  TEXTO - LABELS  */
+.textoregisterform{
+  color:            grey;
 }

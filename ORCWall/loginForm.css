@@ -25,11 +25,6 @@
 
 
 /*  EMAIL  */
-
-#emailtext{
-  border:           1px solid green;
-}
-
 #emailinput{
   margin:           0px;
   padding:          0px;
@@ -39,11 +34,6 @@
 
 
 /*  PASSWORD  */
-
-#passwordtext{
-  border:           1px solid green;
-}
-
 #passwordinput{
   margin:           0px;
   padding:          0px;
@@ -55,10 +45,10 @@
 /*  BUTTONS  */
 
 #buttonsdiv{
-  display: flex;
-  flex-direction: ltr;
-  justify-content: space-between;
-  width: 100%;
+  display:          flex;
+  flex-direction:   ltr;
+  justify-content:  space-between;
+  width:            100%;
 }
 
 #createaccountbutton{
@@ -67,4 +57,11 @@
 
 #loginbutton{
   width:            auto;
+}
+
+
+
+/*  TEXTO - LABELS  */
+.textoreloginform{
+  color:            grey;
 }
