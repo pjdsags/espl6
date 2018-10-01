@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="resources/Images/favicon.png"/>
 	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
 
 </head>
 <body style="margin: 0px; padding: 0px;">
@@ -102,38 +103,50 @@
 
 
 		<!-- MAIN BODY -->
-		<div id="childcontainer">
+		<div class="childcontainer">
 			<!-- MAIN BODY - left bar -->
-			<div id="sidebar">
+			<div class="sidebar">
 
-				<div id="leftbarauxiliar">
+				<div class="sidebarsmall">
 
-					<div class="leftverticalbaroptions">
-						<img id="leftbarIcon" src="resources/Images/dashboardIcon.png">
-						<h1 class="leftbaroptionactive">
+					<div class="sidebarsections">
+						<div class="leftbarIcon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path class="sideicon" fill="#91A59B" d="M4 13h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zm0 8h6c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1zm10 0h6c.55 0 1-.45 1-1v-8c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zM13 4v4c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1z"/></svg>
+					</div>
+
+						<a>
 							Dashboard
-						</h1>
+						</a>
 					</div>
 
-					<div class="leftverticalbaroptions">
-						<img id="leftbarIcon" src="resources/Images/myLibrary.png">
-						<h1 class="leftbaroptionnotactive">
+					<div class="sidebarsections">
+						<div class="leftbarIcon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path class="sideicon" fill="#91A59B" d="M19 18l2 1V3c0-1.1-.9-2-2-2H8.99C7.89 1 7 1.9 7 3h10c1.1 0 2 .9 2 2v13zM15 5H5c-1.1 0-2 .9-2 2v16l7-3 7 3V7c0-1.1-.9-2-2-2z"/></svg>
+					</div>
+						<a class="leftbaroptionnotactive">
 							My library
-						</h1>
+						</a>
 					</div>
 
-					<div class="leftverticalbaroptions">
-						<img id="leftbarIcon" src="resources/Images/groups.png">
-						<h1 class="leftbaroptionnotactive">
+					<div class="sidebarsections">
+						<div class=leftbarIcon>
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path id="sideicon" fill="#91A59B" d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V18c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-1.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05.02.01.03.03.04.04 1.14.83 1.93 1.94 1.93 3.41V18c0 .35-.07.69-.18 1H22c.55 0 1-.45 1-1v-1.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+
+						</div>
+
+						<a class="leftbaroptionnotactive">
 							Groups
-						</h1>
+						</a>
 					</div>
 
-					<div class="leftverticalbaroptions">
-						<img id="leftbarIcon" src="resources/Images/settings.png">
-						<h1 class="leftbaroptionnotactive">
+					<div class="sidebarsections">
+						<div class=leftbarIcon>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path id="sidesicon" fill="#91A59B" d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/></svg>
+						</div>
+						<a class="leftbaroptionnotactive">
 							Settings
-						</h1>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -143,7 +156,8 @@
 
 			<!-- MAIN BODY - feed -->
 
-			<div id="feed" >
+			<div class="feed" >
+				<div class="feedoptions"> </div>
 				<script type="text/javascript">
 					for (var i = 0; i < 50; i++)
 					{

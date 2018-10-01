@@ -39,7 +39,7 @@
 	padding: 0px;
 	min-width: 11em;
 	max.width: 200px;
-	margin-left: 2em;
+	margin-left: 2.5em;
 }
 
 /* SEARCH BAR  - top bar */
@@ -142,16 +142,15 @@
 /*						*/
 
 
-#childcontainer{
+.childcontainer{
 	display: flex;
-
 	width: auto;
 	height:auto;
 	position: absolute;
 		/* subtract the top bar height */
 }
 
-#sidebar{
+.sidebar{
 	margin-top: 4.5em;
 	position:fixed;
 	width: 220px;
@@ -161,45 +160,50 @@
 	flex-direction: column;
 	box-shadow: 4px 2px 4px rgba(204, 204, 204, 0.25);
 }
-#leftbarauxiliar{
+.feedoptions{
+	width:100%;
+	height:4em;
+
+}
+.sidebarsmall{
 	display: flex;
 	flex-direction: column;
+	justify-content: left;
 	width: 100%;
 	height: 100%;
-	margin-top: 60px;
+	margin-top: 4em;
+	margin-left: 2.5em;
 }
 
-.leftverticalbaroptions{
+.sidebarsections{
 	display: flex;
 	flex-direction: ltr;
-	justify-content: center;
-	margin-top: 20px;
+	margin-top: 1.25em;
 	height: 40px;
-
+	align-items: center;
+}
+.sidebarsections:hover a{
+	color: #009245 ;
+	cursor:pointer;
+	font-weight: 700;
+}
+.sidebarsections:hover .sideicon{
+	fill: #009245;
 }
 
-h1.leftbaroptionactive{
-	margin: 0px;
-	padding: 0px;
-	font-size: 100%;
-
+.childcontainer a{
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	color: #91A59B;
+	margin-left: 0.6em;
 }
 
-h1.leftbaroptionnotactive{
-	margin: 0px;
-	padding: 0px;
-	font-size: 80%;
+.leftbarIcon{
+	display: flex;
+	align-content: center;
 }
 
-#leftbarIcon{
-	display: block;
-	max-height: 100%;
-	max-width: 100%;
-	height: auto;
-	width: auto;
-}
-
-#feed{
+.feed{
 	display: flex;
 	flex-direction: ltr;
 	flex-wrap: wrap;
