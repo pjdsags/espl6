@@ -1,0 +1,51 @@
+/*****************************/
+/*****************************/
+/*  CONTAINER REGIRTER FORM  */
+/*****************************/
+/*****************************/
+
+#idformwrapper{
+  display:          flex;
+  border:           1px solid red;
+  height:           579px;
+  width:            478px;
+}
+
+#idformwrapperauxiliar{
+  display:          flex;
+  justify-content:  space-between;
+  margin-left:      64px;
+  margin-top:       64px;
+  flex-direction:   column;
+  height:           calc(100% - 2*64px);
+  width:            calc(100% - 2*64px);
+  border:           3px solid yellow;
+}
+
+
+/*  EMAIL  */
+
+#emailtext{
+  border:           1px solid green;
+}
+
+#emailinput{
+  margin:           0px;
+  padding:          0px;
+  height:           auto;
+  width:            100%;
+}
+
+
+/*  PASSWORD  */
+
+#passwordtext{
+  border:           1px solid green;
+}
+
+#passwordinput{
+  margin:           0px;
+  padding:          0px;
+  height:           auto;
+  width:            100%;
+}
